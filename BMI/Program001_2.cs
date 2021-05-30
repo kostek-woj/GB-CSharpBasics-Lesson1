@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace BMI
 {
-    class BMI
+    class Program001_2
     {
         static void Main(string[] args) {
             

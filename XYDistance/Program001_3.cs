@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace DistanceXY
 {
-    class DistanceXY
+    class Program001_3
     {
         static double distanceXY(double[] p1, double[] p2) {
             return Math.Sqrt(Math.Pow(p2[0] - p1[0], 2) + Math.Pow(p2[1] - p1[1], 2));

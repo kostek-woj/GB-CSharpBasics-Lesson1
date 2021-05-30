@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Questionnaire
 {
-    class Questionnaire
+    class Program001_1
     {
         static void Main(string[] args) {
 

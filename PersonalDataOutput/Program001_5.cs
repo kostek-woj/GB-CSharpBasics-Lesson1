@@ -11,10 +11,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyClassLibrary;
 
 namespace PersonalDataOutput
 {
-    class Program
+    class Program001_5
     {
         static int consoleWidth = Console.WindowWidth;
         static int consoleHeight = Console.WindowHeight;
@@ -62,6 +63,12 @@ namespace PersonalDataOutput
             PrintCenteredAtY(city, positionTop);
 
             Console.SetCursorPosition((consoleWidth - 32) / 2, positionTop + 7); // Position of "Press any key..."
+            MyClass.Pause("");
+
+            Console.Clear();
+            MyClass.PrintCenteredAtXY("Look at me!");
+            MyClass.Pause("And press any key to exit...");
+
         }
     }
 }
